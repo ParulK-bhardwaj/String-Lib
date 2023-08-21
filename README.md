@@ -1,20 +1,20 @@
-# stringi npm package
+# strinify npm package
 
-The stringi npm package provides string manipulation functions designed to enhance JavaScript's built-in string capabilities. It provides a set of intuitive functions that allow you to easily transform and manipulate strings in various ways.
+The strinify npm package provides string manipulation functions designed to enhance JavaScript's built-in string capabilities. It provides a set of intuitive functions that allow you to easily transform and manipulate strings in various ways.
 
 ## Installation
 
-To start using stringi in your JavaScript projects, you can install it via npm:
+To start using strinify in your JavaScript projects, you can install it via npm:
 
 ```shell
-npm install stringi
+npm install strinify
 ```
 
 ## Usage
-Once you have installed stringi, you can import the desired functions into your JavaScript code:
+Once you have installed strinify, you can import the desired functions into your JavaScript code:
 
 ```javascript
-const stringJS = require('stringi');
+const stringJS = require('strinify');
 ```
 
 OR
@@ -32,11 +32,11 @@ const {
     shift,
     makeHashTag,
     isEmpty
-} = require('stringi');
+} = require('strinify');
 ```
 
 ## Features
-stringi offers a wide range of features that empower you to work with strings more effectively:
+strinify offers a wide range of features that empower you to work with strings more effectively:
 
 - capitalize(string)
 Makes the first character of a given string uppercase.
@@ -72,7 +72,7 @@ Converts the given string to a list of hash tags.
 Returns true if the string is empty or contains only whitespace.
 
 ## Functions and Examples
-stringi provides the following functions for string manipulation:
+strinify provides the following functions for string manipulation:
 
 ### capitalize(string)
 Converts the first character of a string to uppercase.
@@ -80,7 +80,7 @@ Converts the first character of a string to uppercase.
 Example:
 
 ```javascript
-const { capitalize } = require('stringi');
+const { capitalize } = require('strinify');
 
 console.log(capitalize('hello world')); // Output: Hello world
 console.log(capitalize('world')); // Output: World
@@ -93,7 +93,7 @@ Makes all characters in the string uppercase.
 Example:
 
 ```javascript
-const { allCaps } = require('stringi');
+const { allCaps } = require('strinify');
 
 console.log(allCaps('hello world')); // Output: HELLO WORLD
 ```
@@ -105,7 +105,7 @@ Makes the first character of each word in the string uppercase.
 Example:
 
 ```javascript
-const { capitalizeWords } = require('stringi');
+const { capitalizeWords } = require('strinify');
 
 console.log(capitalizeWords('hello world')); // Output: Hello World
 ```
@@ -117,7 +117,7 @@ Capitalizes all of the words except the words: the, in, a, an, and, but, for, at
 Example:
 
 ```javascript
-const { capitalizeHeadline } = require('stringi');
+const { capitalizeHeadline } = require('strinify');
 
 console.log(capitalizeHeadline('for welcome to the world but')); // Output: For Welcome To the World but
 ```
@@ -129,7 +129,7 @@ Removes all spaces from the beginning and end of a String along with any extra s
 Example:
 
 ```javascript
-const { removeExtraSpaces } = require('stringi');
+const { removeExtraSpaces } = require('strinify');
 
 console.log(removeExtraSpaces('hello     world')); // Output: hello world
 ```
@@ -141,7 +141,7 @@ Converts the string to kebob case by removing spaces and replacing them with hyp
 Example:
 
 ```javascript
-const { kebobCase } = require('stringi');
+const { kebobCase } = require('strinify');
 
 console.log(kebobCase('Hello World')); // Output: hello-world
 console.log(kebobCase('Some String, Here')); // Output: some-string-here
@@ -154,7 +154,7 @@ Converts the string to snake case by removing spaces and replacing them with und
 Example:
 
 ```javascript
-const { snakeCase } = require('stringi');
+const { snakeCase } = require('strinify');
 
 console.log(snakeCase('Hello World')); // Output: hello_world
 ```
@@ -166,7 +166,7 @@ Lowercases the first character of the first word. Then uppercases the first char
 Example:
 
 ```javascript
-const { camelCase } = require('stringi');
+const { camelCase } = require('strinify');
 
 console.log(camelCase('Hello World')); // Output: helloWorld
 ```
@@ -178,7 +178,7 @@ Shifts the first character of the string to the end.
 Example:
 
 ```javascript
-const { shift } = require('stringi');
+const { shift } = require('strinify');
 
 console.log(shift('Hello World')); // Output: ello WorldH
 ```
@@ -191,7 +191,7 @@ If the given string has more than three words, it picks the three longest and ma
 Example:
 
 ```javascript
-const { makeHashTag } = require('stringi');
+const { makeHashTag } = require('strinify');
 
 console.log(makeHashTag('Amazing bongo drums for sale')); // Output: ['#amazing', '#bongo', '#drums']
 ```
@@ -203,7 +203,7 @@ Returns true if the string is empty or contains only whitespace.
 Example:
 
 ```javascript
-const { isEmpty } = require('stringi');
+const { isEmpty } = require('strinify');
 
 console.log(isEmpty('Hello World')); // Output: false
 console.log(isEmpty(' ')); // Output: true
@@ -211,7 +211,7 @@ console.log(isEmpty(' ')); // Output: true
 
 
 ## Contributing
-I welcome contributions from the community to improve and expand the functionality of stringi. If you have any suggestions, bug reports, or feature requests, please don't hesitate to open an issue or submit a pull request on the GitHub repository.
+I welcome contributions from the community to improve and expand the functionality of strinify. If you have any suggestions, bug reports, or feature requests, please don't hesitate to open an issue or submit a pull request on the GitHub repository.
 
 ### 
 - The package is intended to be used for educational purposes only.

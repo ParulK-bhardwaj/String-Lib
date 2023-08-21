@@ -1,7 +1,7 @@
 {
-  "name": "stringi",
+  "name": "strinify",
   "version": "1.0.0",
-  "description": "The stringi npm package provides string manipulation functions designed to enhance JavaScript's built-in string capabilities. It provides a set of intuitive functions that allow you to easily transform and manipulate strings in various ways.",
+  "description": "The strinify npm package provides string manipulation functions designed to enhance JavaScript's built-in string capabilities. It provides a set of intuitive functions that allow you to easily transform and manipulate strings in various ways.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
