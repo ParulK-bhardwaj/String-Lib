@@ -22,12 +22,16 @@ OR
 ```javascript
 const {
     capitalizeString,
-    titleizeString,
-    camelizeString,
-    underscoreString,
-    dasherizeString,
-    kebabizeString,
-    humanizeString,
+    allCaps,
+    capitalizeWords,
+    capitalizeHeadline,
+    removeExtraSpaces,
+    kebobCase,
+    snakeCase,
+    camelCase,
+    shift,
+    makeHashTag,
+    isEmpty
 } = require('stringi');
 ```
 

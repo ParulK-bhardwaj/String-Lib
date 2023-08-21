@@ -1,12 +1,39 @@
 {
-  "name": "string-lib",
+  "name": "stringi",
   "version": "1.0.0",
   "description": "The stringi npm package provides string manipulation functions designed to enhance JavaScript's built-in string capabilities. It provides a set of intuitive functions that allow you to easily transform and manipulate strings in various ways.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParulK-bhardwaj/String-Lib.git "
+  },
+  "keywords": [
+    "string methods in Javascript",
+    "capitalize",
+    "remove extra space",
+    "removeextraspace",
+    "isEmpty",
+    "string is empty",
+    "kebob case",
+    "snake case",
+    "camel case",
+    "hash tags",
+    "hashtag",
+    "#",
+    "allCaps",
+    "all caps",
+    "shift",
+    "headline",
+    "capitalize words",
+    "capitalize all words"
+  ],
+  "author": "Parul Bhardwaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParulK-bhardwaj/String-Lib/issues"
+  },
+  "homepage": "https://github.com/ParulK-bhardwaj/String-Lib#readme"
 }
