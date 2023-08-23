@@ -1,3 +1,9 @@
+[![npm version](https://img.shields.io/npm/v/strinify.svg)](https://www.npmjs.com/package/string-in-js)
+
+[![npm downloads](https://img.shields.io/npm/dt/strinify.svg)](https://www.npmjs.com/package/string-in-js)
+
+[NPM Package](https://www.npmjs.com/package/strinify)
+
 # strinify npm package
 
 The strinify npm package provides string manipulation functions designed to enhance JavaScript's built-in string capabilities. It provides a set of intuitive functions that allow you to easily transform and manipulate strings in various ways.
