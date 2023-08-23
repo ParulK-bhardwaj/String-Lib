@@ -103,7 +103,7 @@ function makeHashTag(string) {
     wordsArray.sort((a, b) => b.length - a.length)
     const hashTags = wordsArray.slice(0, 3).map(word => `#${word.toLowerCase()}`);
 
-    return hashTags;
+    return hashTags
 }
 
 // White space includes: spaces, line returns, and tabs. These characters can be represented with: \n (new line) \r (carrige return), \t (tab)
@@ -119,3 +119,15 @@ function isEmpty(string) {
 
     return true
 }
+
+module.exports.capitalize = capitalize
+module.exports.allCaps = allCaps
+module.exports.capitalizeWords = capitalizeWords
+module.exports.capitalizeHeadline = capitalizeHeadline
+module.exports.removeExtraSpaces = removeExtraSpaces
+module.exports.kebobCase = kebobCase
+module.exports.snakeCase = snakeCase
+module.exports.camelCase = camelCase
+module.exports.shift = shift
+module.exports.makeHashTag = makeHashTag
+module.exports.isEmpty = isEmpty
